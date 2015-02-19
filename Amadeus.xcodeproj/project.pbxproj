@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F201BA21549FE6F00E8EDE4 /* botonMsc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F201BA11549FE6F00E8EDE4 /* botonMsc.png */; };
+		7F8FEB14154704C000D86247 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB12154704C000D86247 /* downArrow.png */; };
+		7F8FEB15154704C000D86247 /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB13154704C000D86247 /* upArrow.png */; };
+		7F8FEB1F1547057F00D86247 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FEB1E1547057F00D86247 /* Test.m */; };
+		7F8FEB2715470B1700D86247 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8FEB2615470B1700D86247 /* MediaPlayer.framework */; };
+		7F8FEB2915470B2200D86247 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8FEB2815470B2200D86247 /* AudioToolbox.framework */; };
+		7F8FEB39154712E200D86247 /* sinfonia25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB38154712E200D86247 /* sinfonia25.mp3 */; };
+		7F8FEB3B1547140E00D86247 /* 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB3A1547140E00D86247 /* 02.mp3 */; };
+		7F8FEB3D1547145700D86247 /* Allegro01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB3C1547145700D86247 /* Allegro01.mp3 */; };
+		7F8FEB3F154714BC00D86247 /* 06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB3E154714BC00D86247 /* 06.mp3 */; };
+		7F8FEB411547151C00D86247 /* 08.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB401547151C00D86247 /* 08.mp3 */; };
+		7F8FEB43154715A800D86247 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB42154715A800D86247 /* 10.mp3 */; };
+		7F8FEB451547161D00D86247 /* 10a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB441547161D00D86247 /* 10a.mp3 */; };
+		7F8FEB471547169500D86247 /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB461547169500D86247 /* 14.mp3 */; };
+		7F8FEB49154716F000D86247 /* 09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB48154716F000D86247 /* 09.mp3 */; };
+		7F8FEB4B1547173E00D86247 /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB4A1547173E00D86247 /* 12.mp3 */; };
+		7F8FEB4D1547179400D86247 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB4C1547179400D86247 /* 11.mp3 */; };
+		7F8FEB5515471BD300D86247 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8FEB5415471BD300D86247 /* AVFoundation.framework */; };
+		7F8FEB5B1547533C00D86247 /* back_piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB5A1547533C00D86247 /* back_piano.png */; };
+		7F8FEB61154754FE00D86247 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB60154754FE00D86247 /* black.png */; };
+		7F8FEB63154755E100D86247 /* backcafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB62154755E100D86247 /* backcafe.jpg */; };
+		7F8FEB651547589200D86247 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB641547589200D86247 /* a.png */; };
+		7F8FEB671547595600D86247 /* ablack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB661547595600D86247 /* ablack.png */; };
+		7F8FEB6B154759A300D86247 /* bblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB68154759A300D86247 /* bblack.png */; };
+		7F8FEB6C154759A300D86247 /* cblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB69154759A300D86247 /* cblack.png */; };
+		7F8FEB6D154759A300D86247 /* dblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB6A154759A300D86247 /* dblack.png */; };
+		7F8FEB7015475A5000D86247 /* bien.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB6E15475A5000D86247 /* bien.png */; };
+		7F8FEB7115475A5000D86247 /* mal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB6F15475A5000D86247 /* mal.png */; };
+		7F8FEB731547625E00D86247 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB721547625E00D86247 /* header.png */; };
+		7F8FEB791547630000D86247 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB781547630000D86247 /* head.png */; };
+		7F8FEB7B1547636900D86247 /* head1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FEB7A1547636900D86247 /* head1.png */; };
+		7F91605F1546168F007B0215 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F91605E1546168F007B0215 /* UIKit.framework */; };
+		7F9160611546168F007B0215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9160601546168F007B0215 /* Foundation.framework */; };
+		7F9160631546168F007B0215 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9160621546168F007B0215 /* CoreGraphics.framework */; };
+		7F9160691546168F007B0215 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9160671546168F007B0215 /* InfoPlist.strings */; };
+		7F91606B1546168F007B0215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91606A1546168F007B0215 /* main.m */; };
+		7F91606F1546168F007B0215 /* AmadeusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F91606E1546168F007B0215 /* AmadeusAppDelegate.m */; };
+		7F9160721546168F007B0215 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9160701546168F007B0215 /* MainStoryboard.storyboard */; };
+		7F9160751546168F007B0215 /* AmadeusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9160741546168F007B0215 /* AmadeusViewController.m */; };
+		7FEEA74E154AE7EA00EA1FBA /* botonIniciar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA74D154AE7EA00EA1FBA /* botonIniciar.png */; };
+		7FEEA755154AE9E800EA1FBA /* logotweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA754154AE9E800EA1FBA /* logotweet.png */; };
+		7FEEA75B154AEA5400EA1FBA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEEA75A154AEA5400EA1FBA /* Accounts.framework */; };
+		7FEEA75D154AEA5B00EA1FBA /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEEA75C154AEA5B00EA1FBA /* Twitter.framework */; };
+		7FEEA76D154AF5FA00EA1FBA /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA76C154AF5FA00EA1FBA /* 06.png */; };
+		7FEEA773154AF93400EA1FBA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA76F154AF93400EA1FBA /* 02.png */; };
+		7FEEA774154AF93400EA1FBA /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA770154AF93400EA1FBA /* 03.png */; };
+		7FEEA775154AF93400EA1FBA /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA771154AF93400EA1FBA /* 04.png */; };
+		7FEEA777154AFBD700EA1FBA /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA776154AFBD700EA1FBA /* twitter.png */; };
+		7FEEA77B154B0BA600EA1FBA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEEA77A154B0BA600EA1FBA /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F201BA11549FE6F00E8EDE4 /* botonMsc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botonMsc.png; path = img/botonMsc.png; sourceTree = "<group>"; };
+		7F8FEB12154704C000D86247 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow.png; path = img/downArrow.png; sourceTree = "<group>"; };
+		7F8FEB13154704C000D86247 /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upArrow.png; path = img/upArrow.png; sourceTree = "<group>"; };
+		7F8FEB1D1547057F00D86247 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		7F8FEB1E1547057F00D86247 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		7F8FEB2615470B1700D86247 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7F8FEB2815470B2200D86247 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7F8FEB38154712E200D86247 /* sinfonia25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sinfonia25.mp3; path = sound/sinfonia25.mp3; sourceTree = "<group>"; };
+		7F8FEB3A1547140E00D86247 /* 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 02.mp3; path = sound/02.mp3; sourceTree = "<group>"; };
+		7F8FEB3C1547145700D86247 /* Allegro01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Allegro01.mp3; path = sound/Allegro01.mp3; sourceTree = "<group>"; };
+		7F8FEB3E154714BC00D86247 /* 06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 06.mp3; path = sound/06.mp3; sourceTree = "<group>"; };
+		7F8FEB401547151C00D86247 /* 08.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 08.mp3; path = sound/08.mp3; sourceTree = "<group>"; };
+		7F8FEB42154715A800D86247 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10.mp3; path = sound/10.mp3; sourceTree = "<group>"; };
+		7F8FEB441547161D00D86247 /* 10a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10a.mp3; path = sound/10a.mp3; sourceTree = "<group>"; };
+		7F8FEB461547169500D86247 /* 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 14.mp3; path = sound/14.mp3; sourceTree = "<group>"; };
+		7F8FEB48154716F000D86247 /* 09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 09.mp3; path = sound/09.mp3; sourceTree = "<group>"; };
+		7F8FEB4A1547173E00D86247 /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 12.mp3; path = sound/12.mp3; sourceTree = "<group>"; };
+		7F8FEB4C1547179400D86247 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 11.mp3; path = sound/11.mp3; sourceTree = "<group>"; };
+		7F8FEB5415471BD300D86247 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7F8FEB5A1547533C00D86247 /* back_piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_piano.png; path = img/back_piano.png; sourceTree = "<group>"; };
+		7F8FEB60154754FE00D86247 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = img/black.png; sourceTree = "<group>"; };
+		7F8FEB62154755E100D86247 /* backcafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backcafe.jpg; path = img/backcafe.jpg; sourceTree = "<group>"; };
+		7F8FEB641547589200D86247 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = img/a.png; sourceTree = "<group>"; };
+		7F8FEB661547595600D86247 /* ablack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ablack.png; path = img/ablack.png; sourceTree = "<group>"; };
+		7F8FEB68154759A300D86247 /* bblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bblack.png; path = img/bblack.png; sourceTree = "<group>"; };
+		7F8FEB69154759A300D86247 /* cblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cblack.png; path = img/cblack.png; sourceTree = "<group>"; };
+		7F8FEB6A154759A300D86247 /* dblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dblack.png; path = img/dblack.png; sourceTree = "<group>"; };
+		7F8FEB6E15475A5000D86247 /* bien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bien.png; path = img/bien.png; sourceTree = "<group>"; };
+		7F8FEB6F15475A5000D86247 /* mal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mal.png; path = img/mal.png; sourceTree = "<group>"; };
+		7F8FEB721547625E00D86247 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = img/header.png; sourceTree = "<group>"; };
+		7F8FEB781547630000D86247 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head.png; path = img/head.png; sourceTree = "<group>"; };
+		7F8FEB7A1547636900D86247 /* head1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head1.png; path = img/head1.png; sourceTree = "<group>"; };
+		7F91605A1546168F007B0215 /* AmadeusW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmadeusW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F91605E1546168F007B0215 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F9160601546168F007B0215 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F9160621546168F007B0215 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F9160661546168F007B0215 /* Amadeus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amadeus-Info.plist"; sourceTree = "<group>"; };
+		7F9160681546168F007B0215 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F91606A1546168F007B0215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F91606C1546168F007B0215 /* Amadeus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amadeus-Prefix.pch"; sourceTree = "<group>"; };
+		7F91606D1546168F007B0215 /* AmadeusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmadeusAppDelegate.h; sourceTree = "<group>"; };
+		7F91606E1546168F007B0215 /* AmadeusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmadeusAppDelegate.m; sourceTree = "<group>"; };
+		7F9160711546168F007B0215 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7F9160731546168F007B0215 /* AmadeusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmadeusViewController.h; sourceTree = "<group>"; };
+		7F9160741546168F007B0215 /* AmadeusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmadeusViewController.m; sourceTree = "<group>"; };
+		7FEEA74D154AE7EA00EA1FBA /* botonIniciar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botonIniciar.png; path = img/botonIniciar.png; sourceTree = "<group>"; };
+		7FEEA754154AE9E800EA1FBA /* logotweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logotweet.png; path = img/logotweet.png; sourceTree = "<group>"; };
+		7FEEA75A154AEA5400EA1FBA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7FEEA75C154AEA5B00EA1FBA /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7FEEA76C154AF5FA00EA1FBA /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.png; path = img/06.png; sourceTree = "<group>"; };
+		7FEEA76F154AF93400EA1FBA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.png; path = img/02.png; sourceTree = "<group>"; };
+		7FEEA770154AF93400EA1FBA /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.png; path = img/03.png; sourceTree = "<group>"; };
+		7FEEA771154AF93400EA1FBA /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.png; path = img/04.png; sourceTree = "<group>"; };
+		7FEEA776154AFBD700EA1FBA /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = img/twitter.png; sourceTree = "<group>"; };
+		7FEEA77A154B0BA600EA1FBA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9160571546168F007B0215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEEA75D154AEA5B00EA1FBA /* Twitter.framework in Frameworks */,
+				7FEEA75B154AEA5400EA1FBA /* Accounts.framework in Frameworks */,
+				7F8FEB5515471BD300D86247 /* AVFoundation.framework in Frameworks */,
+				7F8FEB2915470B2200D86247 /* AudioToolbox.framework in Frameworks */,
+				7F8FEB2715470B1700D86247 /* MediaPlayer.framework in Frameworks */,
+				7F91605F1546168F007B0215 /* UIKit.framework in Frameworks */,
+				7F9160611546168F007B0215 /* Foundation.framework in Frameworks */,
+				7F9160631546168F007B0215 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8FEB10154704B500D86247 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7FEEA776154AFBD700EA1FBA /* twitter.png */,
+				7FEEA76F154AF93400EA1FBA /* 02.png */,
+				7FEEA770154AF93400EA1FBA /* 03.png */,
+				7FEEA771154AF93400EA1FBA /* 04.png */,
+				7FEEA76C154AF5FA00EA1FBA /* 06.png */,
+				7FEEA754154AE9E800EA1FBA /* logotweet.png */,
+				7FEEA74D154AE7EA00EA1FBA /* botonIniciar.png */,
+				7F201BA11549FE6F00E8EDE4 /* botonMsc.png */,
+				7F8FEB60154754FE00D86247 /* black.png */,
+				7F8FEB5A1547533C00D86247 /* back_piano.png */,
+				7F8FEB781547630000D86247 /* head.png */,
+				7F8FEB12154704C000D86247 /* downArrow.png */,
+				7F8FEB68154759A300D86247 /* bblack.png */,
+				7F8FEB69154759A300D86247 /* cblack.png */,
+				7F8FEB6A154759A300D86247 /* dblack.png */,
+				7F8FEB6E15475A5000D86247 /* bien.png */,
+				7F8FEB7A1547636900D86247 /* head1.png */,
+				7F8FEB6F15475A5000D86247 /* mal.png */,
+				7F8FEB721547625E00D86247 /* header.png */,
+				7F8FEB62154755E100D86247 /* backcafe.jpg */,
+				7F8FEB661547595600D86247 /* ablack.png */,
+				7F8FEB641547589200D86247 /* a.png */,
+				7F8FEB13154704C000D86247 /* upArrow.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		7F8FEB2415470A6C00D86247 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				7F8FEB38154712E200D86247 /* sinfonia25.mp3 */,
+				7F8FEB3A1547140E00D86247 /* 02.mp3 */,
+				7F8FEB3C1547145700D86247 /* Allegro01.mp3 */,
+				7F8FEB3E154714BC00D86247 /* 06.mp3 */,
+				7F8FEB401547151C00D86247 /* 08.mp3 */,
+				7F8FEB441547161D00D86247 /* 10a.mp3 */,
+				7F8FEB42154715A800D86247 /* 10.mp3 */,
+				7F8FEB461547169500D86247 /* 14.mp3 */,
+				7F8FEB4A1547173E00D86247 /* 12.mp3 */,
+				7F8FEB4C1547179400D86247 /* 11.mp3 */,
+				7F8FEB48154716F000D86247 /* 09.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		7F91604F1546168F007B0215 = {
+			isa = PBXGroup;
+			children = (
+				7FEEA77A154B0BA600EA1FBA /* icon.png */,
+				7FEEA75C154AEA5B00EA1FBA /* Twitter.framework */,
+				7FEEA75A154AEA5400EA1FBA /* Accounts.framework */,
+				7F8FEB5415471BD300D86247 /* AVFoundation.framework */,
+				7F8FEB2815470B2200D86247 /* AudioToolbox.framework */,
+				7F8FEB2615470B1700D86247 /* MediaPlayer.framework */,
+				7F8FEB2415470A6C00D86247 /* sound */,
+				7F8FEB1D1547057F00D86247 /* Test.h */,
+				7F8FEB1E1547057F00D86247 /* Test.m */,
+				7F8FEB10154704B500D86247 /* img */,
+				7F9160641546168F007B0215 /* Amadeus */,
+				7F91605D1546168F007B0215 /* Frameworks */,
+				7F91605B1546168F007B0215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F91605B1546168F007B0215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F91605A1546168F007B0215 /* AmadeusW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F91605D1546168F007B0215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F91605E1546168F007B0215 /* UIKit.framework */,
+				7F9160601546168F007B0215 /* Foundation.framework */,
+				7F9160621546168F007B0215 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9160641546168F007B0215 /* Amadeus */ = {
+			isa = PBXGroup;
+			children = (
+				7F91606D1546168F007B0215 /* AmadeusAppDelegate.h */,
+				7F91606E1546168F007B0215 /* AmadeusAppDelegate.m */,
+				7F9160701546168F007B0215 /* MainStoryboard.storyboard */,
+				7F9160731546168F007B0215 /* AmadeusViewController.h */,
+				7F9160741546168F007B0215 /* AmadeusViewController.m */,
+				7F9160651546168F007B0215 /* Supporting Files */,
+			);
+			path = Amadeus;
+			sourceTree = "<group>";
+		};
+		7F9160651546168F007B0215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9160661546168F007B0215 /* Amadeus-Info.plist */,
+				7F9160671546168F007B0215 /* InfoPlist.strings */,
+				7F91606A1546168F007B0215 /* main.m */,
+				7F91606C1546168F007B0215 /* Amadeus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9160591546168F007B0215 /* Amadeus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9160781546168F007B0215 /* Build configuration list for PBXNativeTarget "Amadeus" */;
+			buildPhases = (
+				7F9160561546168F007B0215 /* Sources */,
+				7F9160571546168F007B0215 /* Frameworks */,
+				7F9160581546168F007B0215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amadeus;
+			productName = Amadeus;
+			productReference = 7F91605A1546168F007B0215 /* AmadeusW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9160511546168F007B0215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Amadeus;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7F9160541546168F007B0215 /* Build configuration list for PBXProject "Amadeus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F91604F1546168F007B0215;
+			productRefGroup = 7F91605B1546168F007B0215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9160591546168F007B0215 /* Amadeus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9160581546168F007B0215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9160691546168F007B0215 /* InfoPlist.strings in Resources */,
+				7F9160721546168F007B0215 /* MainStoryboard.storyboard in Resources */,
+				7F8FEB14154704C000D86247 /* downArrow.png in Resources */,
+				7F8FEB15154704C000D86247 /* upArrow.png in Resources */,
+				7F8FEB39154712E200D86247 /* sinfonia25.mp3 in Resources */,
+				7F8FEB3B1547140E00D86247 /* 02.mp3 in Resources */,
+				7F8FEB3D1547145700D86247 /* Allegro01.mp3 in Resources */,
+				7F8FEB3F154714BC00D86247 /* 06.mp3 in Resources */,
+				7F8FEB411547151C00D86247 /* 08.mp3 in Resources */,
+				7F8FEB43154715A800D86247 /* 10.mp3 in Resources */,
+				7F8FEB451547161D00D86247 /* 10a.mp3 in Resources */,
+				7F8FEB471547169500D86247 /* 14.mp3 in Resources */,
+				7F8FEB49154716F000D86247 /* 09.mp3 in Resources */,
+				7F8FEB4B1547173E00D86247 /* 12.mp3 in Resources */,
+				7F8FEB4D1547179400D86247 /* 11.mp3 in Resources */,
+				7F8FEB5B1547533C00D86247 /* back_piano.png in Resources */,
+				7F8FEB61154754FE00D86247 /* black.png in Resources */,
+				7F8FEB63154755E100D86247 /* backcafe.jpg in Resources */,
+				7F8FEB651547589200D86247 /* a.png in Resources */,
+				7F8FEB671547595600D86247 /* ablack.png in Resources */,
+				7F8FEB6B154759A300D86247 /* bblack.png in Resources */,
+				7F8FEB6C154759A300D86247 /* cblack.png in Resources */,
+				7F8FEB6D154759A300D86247 /* dblack.png in Resources */,
+				7F8FEB7015475A5000D86247 /* bien.png in Resources */,
+				7F8FEB7115475A5000D86247 /* mal.png in Resources */,
+				7F8FEB731547625E00D86247 /* header.png in Resources */,
+				7F8FEB791547630000D86247 /* head.png in Resources */,
+				7F8FEB7B1547636900D86247 /* head1.png in Resources */,
+				7F201BA21549FE6F00E8EDE4 /* botonMsc.png in Resources */,
+				7FEEA74E154AE7EA00EA1FBA /* botonIniciar.png in Resources */,
+				7FEEA755154AE9E800EA1FBA /* logotweet.png in Resources */,
+				7FEEA76D154AF5FA00EA1FBA /* 06.png in Resources */,
+				7FEEA773154AF93400EA1FBA /* 02.png in Resources */,
+				7FEEA774154AF93400EA1FBA /* 03.png in Resources */,
+				7FEEA775154AF93400EA1FBA /* 04.png in Resources */,
+				7FEEA777154AFBD700EA1FBA /* twitter.png in Resources */,
+				7FEEA77B154B0BA600EA1FBA /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9160561546168F007B0215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F91606B1546168F007B0215 /* main.m in Sources */,
+				7F91606F1546168F007B0215 /* AmadeusAppDelegate.m in Sources */,
+				7F9160751546168F007B0215 /* AmadeusViewController.m in Sources */,
+				7F8FEB1F1547057F00D86247 /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F9160671546168F007B0215 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9160681546168F007B0215 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F9160701546168F007B0215 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9160711546168F007B0215 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9160761546168F007B0215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F9160771546168F007B0215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9160791546168F007B0215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amadeus/Amadeus-Prefix.pch";
+				INFOPLIST_FILE = "Amadeus/Amadeus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AmadeusW;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F91607A1546168F007B0215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amadeus/Amadeus-Prefix.pch";
+				INFOPLIST_FILE = "Amadeus/Amadeus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AmadeusW;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FEEA77C154B521000EA1FBA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "A6ACD141-D76D-4EA1-905E-28D0619C6CFA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A6ACD141-D76D-4EA1-905E-28D0619C6CFA";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7FEEA77D154B521000EA1FBA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amadeus/Amadeus-Prefix.pch";
+				INFOPLIST_FILE = "Amadeus/Amadeus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AmadeusW;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9160541546168F007B0215 /* Build configuration list for PBXProject "Amadeus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9160761546168F007B0215 /* Debug */,
+				7FEEA77C154B521000EA1FBA /* Distribution */,
+				7F9160771546168F007B0215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9160781546168F007B0215 /* Build configuration list for PBXNativeTarget "Amadeus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9160791546168F007B0215 /* Debug */,
+				7FEEA77D154B521000EA1FBA /* Distribution */,
+				7F91607A1546168F007B0215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9160511546168F007B0215 /* Project object */;
+}
